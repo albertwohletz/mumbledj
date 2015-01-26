@@ -40,7 +40,7 @@ func parseCommand(user *gumble.User, username, command string) {
 					argument := "https://www.youtube.com/watch?v=gsHit2F2mRY"
 					add(user, username, argument)
 				case "veryclever":
-					argument := "https://www.youtube.com/watch?v=WvhRudg0RNs"
+					argument := "https://www.youtube.com/watch?v=vRmD5bc62Q4"
 					add(user, username, argument)
 				case "plaguu":
 					argument := "https://www.youtube.com/watch?v=O6HKh0tEUFc"
@@ -74,6 +74,9 @@ func parseCommand(user *gumble.User, username, command string) {
 					add(user, username, argument)
 				case "balls":
 					argument := "https://www.youtube.com/watch?v=XsoSVdJikDw"
+					add(user, username, argument)
+				case "heyya":
+					argument := "https://www.youtube.com/watch?v=ZZ5LpwO-An4"
 					add(user, username, argument)
 				default:
 					add(user, username, argument)

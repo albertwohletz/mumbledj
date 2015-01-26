@@ -35,7 +35,49 @@ func parseCommand(user *gumble.User, username, command string) {
 	// Add command
 	case dj.conf.Aliases.AddAlias:
 		if dj.HasPermission(username, dj.conf.Permissions.AdminAdd) {
-			add(user, username, argument)
+			switch argument {
+				case "ayyayy":
+					argument := "https://www.youtube.com/watch?v=gsHit2F2mRY"
+					add(user, username, argument)
+				case "veryclever":
+					argument := "https://www.youtube.com/watch?v=WvhRudg0RNs"
+					add(user, username, argument)
+				case "plaguu":
+					argument := "https://www.youtube.com/watch?v=O6HKh0tEUFc"
+					add(user, username, argument)
+				case "hebo":
+					argument := "https://www.youtube.com/watch?v=K2zApzITlSM"
+					add(user, username, argument)
+				case "teamamericasad":
+					argument := "https://www.youtube.com/watch?v=nJ-bIeJ4zOY"
+					add(user, username, argument)
+				case "teamamerica":
+					argument := "https://www.youtube.com/watch?v=U1mlCPMYtPk"
+					add(user, username, argument)
+				case "nyess":
+					argument := "https://www.youtube.com/watch?v=zlF0L5lxJ_4"
+					add(user, username, argument)
+				case "laphog":
+					argument := "https://www.youtube.com/watch?v=muW5CAyQL2Y"
+					add(user, username, argument)
+				case "batman":
+					argument := "https://www.youtube.com/watch?v=U9G18qHPhcM"
+					add(user, username, argument)
+				case "cressfresh":
+					argument := "https://www.youtube.com/watch?v=_qU_gEiSbIU"
+					add(user, username, argument)
+				case "whatever":
+					argument := "https://www.youtube.com/watch?v=viaTT859Yk0"
+					add(user, username, argument)
+				case "panda":
+					argument := "https://www.youtube.com/watch?v=v5iJPoIynm0"
+					add(user, username, argument)
+				case "balls":
+					argument := "https://www.youtube.com/watch?v=XsoSVdJikDw"
+					add(user, username, argument)
+				default:
+					add(user, username, argument)
+			}                       
 		} else {
 			user.Send(NO_PERMISSION_MSG)
 		}

@@ -36,7 +36,6 @@ func parseCommand(user *gumble.User, username, command string) {
 	case dj.conf.Aliases.AddAlias:
 		if dj.HasPermission(username, dj.conf.Permissions.AdminAdd) {
 			add(user, username, argument)
-		}                       
 		} else {
 			user.Send(NO_PERMISSION_MSG)
 		}

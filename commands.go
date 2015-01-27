@@ -218,15 +218,44 @@ func parseCommand(user *gumble.User, username, command string) {
 		argument := "https://www.youtube.com/watch?v=aFD_WVKZ1dA"
 		add(user, username, argument)
 	case "damson":
-		argument != "https://www.youtube.com/watch?v=s_x_4UElTDI"
+		argument := "https://www.youtube.com/watch?v=s_x_4UElTDI"
 		add(user, username, argument)
 	case "xfiles":
-		argument != "https://www.youtube.com/watch?v=fxfEg54cCKo"
+		argument := "https://www.youtube.com/watch?v=fxfEg54cCKo"
 		add(user, username, argument)
 	case "helpmenigga":
-		argument != "https://www.youtube.com/watch?v=ZCYhAXmC_B0"
+		argument := "https://www.youtube.com/watch?v=ZCYhAXmC_B0"
 		add(user, username, argument)
-	
+	case "D":
+		argument := "https://www.youtube.com/watch?v=gI30D5YKWdE"
+		add(user, username, argument)
+	case "justin":
+		argument := "https://www.youtube.com/watch?v=wd63P7mYXzo"
+		add(user, username, argument)
+	case "bestsong":
+		argument := "https://www.youtube.com/watch?v=iq_d8VSM0nw"
+		add(user, username, argument)
+	case "shrek":
+		argument := "https://www.youtube.com/watch?v=MxTng4FWxBs"
+		add(user, username, argument)	
+	case "tyler":
+		argument := "https://www.youtube.com/watch?v=enisEolQXnw"
+		add(user, username, argument)
+	case "pokemon":
+		argument := "https://www.youtube.com/watch?v=JuYeHPFR3f0"
+		add(user, username, argument)
+	case "pokerap":
+		argument := "https://www.youtube.com/watch?v=xMk8wuw7nek"
+		add(user, username, argument)
+	case "mindtime":
+		argument := "https://www.youtube.com/watch?v=C2geT2xfoUg"
+		add(user, username, argument)
+	case "zoozoo":
+		argument := "https://www.youtube.com/watch?v=DDmrChlreYg"
+		add(user, username, argument)
+	case "computer":
+		argument := "https://www.youtube.com/watch?v=-2ZkJd4u0Us"
+		add(user, username, argument)
 	default:
 		user.Send(COMMAND_DOESNT_EXIST_MSG)
 	}

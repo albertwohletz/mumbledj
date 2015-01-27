@@ -137,10 +137,16 @@ func parseCommand(user *gumble.User, username, command string) {
 		argument := "https://www.youtube.com/watch?v=vRmD5bc62Q4"
 		add(user, username, argument)
 	case "plaguu":
-		argument := "https://www.youtube.com/watch?v=O6HKh0tEUFc"
+		argument := "https://www.youtube.com/watch?v=Vpuv7VPb2rA"
 		add(user, username, argument)
 	case "hebo":
+		argument := "https://www.youtube.com/watch?v=addrYZ6g_Ss"
+		add(user, username, argument)
+	case "hebofull":
 		argument := "https://www.youtube.com/watch?v=K2zApzITlSM"
+		add(user, username, argument)
+	case "hebotrouble":
+		argument := "https://www.youtube.com/watch?v=2JQ1siajAvw"
 		add(user, username, argument)
 	case "teamamericasad":
 		argument := "https://www.youtube.com/watch?v=nJ-bIeJ4zOY"				
@@ -193,6 +199,24 @@ func parseCommand(user *gumble.User, username, command string) {
 	case "merica":
 		argument := "https://www.youtube.com/watch?v=j2zlPNGuPbw"
 		add(user, username, argument)	
+	case "nick":
+		argument := "https://www.youtube.com/watch?v=oALUNqVWQoQ"
+		add(user, username, argument)
+	case "damgood":
+		argument := "https://www.youtube.com/watch?v=hQRv0qM_5rQ"
+		add(user, username, argument)
+	case "mrando":
+		argument := "https://www.youtube.com/watch?v=kL8a7tnP9lI"
+		add(user, username, argument)
+	case "hello":
+		argument := "https://www.youtube.com/watch?v=addrYZ6g_Ss"
+		add(user, username, argument)
+	case "choppa":
+		argument := "https://www.youtube.com/watch?v=-9-Te-DPbSE"
+		add(user, username, argument)
+	case "albert":
+		argument := "https://www.youtube.com/watch?v=aFD_WVKZ1dA"
+		add(user, username, argument)
 	default:
 		user.Send(COMMAND_DOESNT_EXIST_MSG)
 	}

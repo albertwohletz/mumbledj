@@ -256,6 +256,27 @@ func parseCommand(user *gumble.User, username, command string) {
 	case "computer":
 		argument := "https://www.youtube.com/watch?v=-2ZkJd4u0Us"
 		add(user, username, argument)
+	case "father":
+		argument := "https://www.youtube.com/watch?v=w0Zmy5JZ0PI&feature=youtu.be"
+		add(user, username, argument)
+	case "ludicrous":
+		argument := "https://www.youtube.com/watch?v=gWJIQm9qH-w"
+		add(user, username, argument)
+	case "lazor":
+		argument := "https://www.youtube.com/watch?v=fyuNidSrVik"
+		add(user, username, argument)
+	case "pantsu":
+		argument := "https://www.youtube.com/watch?v=GbOb0jhS__E&feature=youtu.be"
+		add(user, username, argument)
+	case "mongorian":
+		argument := "https://www.youtube.com/watch?v=0KnlN4OAjmQ"
+		add(user, username, argument)
+	case "kickassu":
+		argument := "https://www.youtube.com/watch?v=-VILgSsesD0"
+		add(user, username, argument)
+	case "minorities":
+		argument := "https://www.youtube.com/watch?v=neI76SsDGDk"
+		add(user, username, argument)
 	default:
 		user.Send(COMMAND_DOESNT_EXIST_MSG)
 	}
